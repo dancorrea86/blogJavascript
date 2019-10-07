@@ -1,0 +1,19 @@
+{
+  "name": "blogjavascript",
+  "version": "1.0.0",
+  "description": "A little project for a blog made in Javascript and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancorrea86/blogJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancorrea86/blogJavascript/issues"
+  },
+  "homepage": "https://github.com/dancorrea86/blogJavascript#readme"
+}
