@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import './App.css';
 import axios from 'axios'
 
-import HeaderBlogM from './components/HeaderBlog';
+import HeaderBlogM from './materials/HeaderBlogM';
 import SideBarM from './materials/SideBarM';
 import ContentBlogM from './materials/ContentBlogM';
 import FooterBlobM from './materials/FooterBlogM';
@@ -27,7 +27,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="grid">
         <HeaderBlogM />
         <SideBarM />
         <ContentBlogM />
