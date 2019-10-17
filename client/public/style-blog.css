@@ -1,14 +1,17 @@
 .grid {
   display: grid;
   grid-template-columns: 25% auto;
-  grid-area: ""
+  grid-template-areas: 
+      "header-blog-m header-blog-m"
+      "sidebar-blog-m conteudo-blog-m"
+      "footer-blob-m footer-blob-m";
 }
 
-.header-blog {
+.header-blog-m {
   grid-area: header-blog-m;
 }
 
-.sidebar-blog {
+.sidebar-blog-m {
  grid-area: sidebar-blog-m;
 }
 
