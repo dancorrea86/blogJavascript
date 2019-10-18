@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
 import axios from 'axios'
+import 'materialize-css/dist/css/materialize.min.css'
 
 import HeaderBlogM from './materials/HeaderBlogM';
 import SideBarM from './materials/SideBarM';

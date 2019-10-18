@@ -1,14 +1,12 @@
 import React from 'react'
-import { Navbar, NavItem } from 'react-materialize';
 
 const HeaderBlogM = props => {
   return (
     <div className="header-blog-m">
-      <Navbar>
-       
-        <NavItem/>Component
-        
-      </Navbar>
+      <nav>
+        <li><a>Getting Started</a></li>
+        <li><a>Components</a></li>
+      </nav>
     </div>
   )
 }
