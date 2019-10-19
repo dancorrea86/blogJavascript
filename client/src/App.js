@@ -8,16 +8,21 @@ import SideBarM from './materials/SideBarM';
 import ContentBlogM from './materials/ContentBlogM';
 import FooterBlobM from './materials/FooterBlogM';
 
-
-
 class App extends Component {
   constructor(props) {
     super(props)
+
+    this.state = {
+      resultado: []
+    }
     
     axios
       .get('/postagens')
       .then(resultado => {
         console.log(resultado)
+        this.setState({
+          resultado: resultado.data[0]
+        })
       })
 
       axios
@@ -31,7 +36,7 @@ class App extends Component {
       <div className="grid">
         <HeaderBlogM />
         <SideBarM />
-        <ContentBlogM />
+        <ContentBlogM posts={this.state.resultado}/>
         <FooterBlobM />
       </div>
     );
